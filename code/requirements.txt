@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+opencv-python>=3
+gdown
+pycocotools
+PyYAML
+Pillow
+tensorboard

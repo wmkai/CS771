@@ -1,0 +1,10 @@
+output_folder: "../logs"
+model_type: "RESNET18"
+dataset:
+  root_folder: "../data"
+
+opt:
+  epochs: 20
+  learning_rate: 0.01
+
+# see cls_libs/config.py for more details

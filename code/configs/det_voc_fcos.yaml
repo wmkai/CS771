@@ -1,0 +1,6 @@
+output_folder: "../logs"
+dataset:
+  img_folder: "../data/VOCdevkit/VOC2007/JPEGImages"
+  json_folder: "../data"
+
+# see det_libs/config.py for more details

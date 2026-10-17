@@ -1,0 +1,19 @@
+output_folder: "../logs"
+model_type: "CNN"
+dataset:
+  root_folder: "../data"
+
+model:
+  widths: [32, 64, 128, 256]
+  blocks_per_stage: 2
+  dropout: 0.2
+
+loader:
+  batch_size: 128
+
+opt:
+  epochs: 60
+  learning_rate: 0.05
+  weight_decay: 0.0005
+
+# see cls_libs/config.py for more details

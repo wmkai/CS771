@@ -1,0 +1,7 @@
+# The original SimpleNet supplied with the assignment.
+output_folder: "../logs"
+model_type: "BASELINE"
+dataset:
+  root_folder: "../data"
+
+# Keep the supplied training defaults for the reference experiment.
